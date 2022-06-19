@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vyoungv7340.dothome.co.kr/shop/static/css/main.4d820e0f.css",
+    "main.js": "/vyoungv7340.dothome.co.kr/shop/static/js/main.2d046abb.js",
+    "static/js/787.23170c61.chunk.js": "/vyoungv7340.dothome.co.kr/shop/static/js/787.23170c61.chunk.js",
+    "static/media/nature-ge11690eb8_1920.jpg": "/vyoungv7340.dothome.co.kr/shop/static/media/nature-ge11690eb8_1920.db1a7844da6c60b8853e.jpg",
+    "index.html": "/vyoungv7340.dothome.co.kr/shop/index.html",
+    "main.4d820e0f.css.map": "/vyoungv7340.dothome.co.kr/shop/static/css/main.4d820e0f.css.map",
+    "main.2d046abb.js.map": "/vyoungv7340.dothome.co.kr/shop/static/js/main.2d046abb.js.map",
+    "787.23170c61.chunk.js.map": "/vyoungv7340.dothome.co.kr/shop/static/js/787.23170c61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d820e0f.css",
+    "static/js/main.2d046abb.js"
+  ]
+}

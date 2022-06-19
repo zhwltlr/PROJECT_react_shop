@@ -1,0 +1,69 @@
+// import도 쉽게 가능하다
+// @import './reset.scss'
+
+
+
+
+// 변수에 데이터 저장하기
+$메인칼라: #ff0000;
+
+.red{
+    color: $메인칼라;
+}
+
+// nesting
+// div.contianer h4{
+//     color: blue;
+// }
+// div.container {
+//     color: green;
+// }
+
+// div.container{
+//     h4{
+//         color: blue;
+//     }
+//     p{
+//         color: green;
+//     }
+// }
+// 위의 두개가 같은 말
+
+
+.my-alert{
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+// 만약 이런 alert창이 다른색상으로 필요하면?
+.my-alert-red { //이게 복사, 붙여넣기방법임
+    @extend .my-alert;
+    background: #ffe591;
+}
+
+
+// mix in - 좀 더 보기 좋게 나타내기
+// @mixin 함수() {
+//     background-color: #eeeeee;
+//     padding: 20px;
+//     border-radius: 5px;
+//     max-width: 500px;
+//     width: 100%;
+//     margin: auto;
+// }
+
+
+// .my-alert{
+//     @include 함수()
+// }
+// 이렇게 불러오면 됨
+
+.my-alert p{
+    margin-bottom: 0;
+}
+
+

@@ -1,0 +1,10 @@
+<IfModule mod_url.c>
+    checkURL On
+    ServerEncoding EUC-KR
+    ClientEncoding UTF-8
+
+    Options -MultiViews 
+    RewriteEngine On 
+    RewriteCond %{REQUEST_FILENAME} !-f 
+    RewriteRule ^ index.html [QSA,L]
+</IfModule>

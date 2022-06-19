@@ -11,6 +11,10 @@
   background-image: url('/nature-ge11690eb8_1920.jpg');
   background-size: cover;
   color: #282c34;
+  height: 400px;
+}
+.Jumbotron p{
+  width: 60%; margin: 30px auto;
 }
 .btn-danger{
   margin-left: 10px;
